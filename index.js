@@ -9,4 +9,6 @@ function destructivelyPrependKitten(){
 function destructivelyRemoveLastKitten(){
   kittens.pop()
 }
-function appendKitten()
+function appendKitten(){
+  kittens
+}

@@ -9,7 +9,11 @@ function destructivelyPrependKitten(){
 function destructivelyRemoveLastKitten(){
   kittens.pop()
 }
+function destructivelyRemoveFirstKitten(){
+  kittens.shift()
+}
+var kitty = ["Broom"]
 function appendKitten(){
-  [...kittens, "Broom"]
+  kittens.concat(kitty)
   return kittens
 }
